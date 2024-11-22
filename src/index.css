@@ -1,3 +1,33 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+    font-family: 'General Sans', sans-serif;
+    width: 100dvw;
+    background-color: #dfdff0;
+    overflow-x: hidden;
+}
+
+@layer base{
+    @font-face {
+        font-family: 'circular-web';
+        src: url('/fonts/CircularStd-Book.woff2') format('woff2');
+    }
+    @font-face {
+        font-family: 'general';
+        src: url('/fonts/General.woff2') format('woff2');
+    }
+    @font-face {
+        font-family: 'robert-medium';
+        src: url('/fonts/Robert-medium.woff2') format('woff2');
+    }
+    @font-face {
+        font-family: 'robert-regular';
+        src: url('/fonts/Robert-regular.woff2') format('woff2');
+    }
+    @font-face {
+        font-family: 'zentry';
+        src: url('/fonts/Zentry.woff2') format('woff2');
+    }
+}
