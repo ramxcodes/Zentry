@@ -2,10 +2,7 @@ import Button from "./Button";
 import PropTypes from 'prop-types';
 
 
-ImageClipBox.propTypes = {
-    src: PropTypes.string.isRequired,
-    clipClass: PropTypes.string.isRequired,
-};
+
 
 const ImageClipBox = ({ src, clipClass }) => {
     return (
@@ -49,11 +46,15 @@ const Contact = () => {
             Let&apos;s b<b>u</b>ild <br />
             the new era of <br />g<b>a</b>ming t<b>o</b>gether
           </p>
-          <Button title="Contact Us" containerClass="mt-10 cursor-pointer" />
+          <Button id="#contact-btn" title="Contact Us" containerClass="mt-10 cursor-pointer" />
         </div>
       </div>
     </div>
   );
 };
 
+ImageClipBox.propTypes = {
+    src: PropTypes.string.isRequired,
+    clipClass: PropTypes.string.isRequired,
+};
 export default Contact;
