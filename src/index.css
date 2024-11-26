@@ -271,3 +271,11 @@ body {
     opacity: 0.8;
   }
 }
+
+/* make scrollbar thin */
+::-webkit-scrollbar {
+  width: 0px;
+  color: #5d3fd3;
+  /* add all scrollbar customizations */
+  
+}
