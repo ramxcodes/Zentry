@@ -50,11 +50,11 @@ const Story = () => {
       <section id="story" className="w-screen bg-black min-h-dvh text-blue-50">
         <div className="flex flex-col items-center py-10 pb-24 size-full">
           <p className="text-sm uppercase font-general md:text-[10px]">
-            The multiversal ip world
+            The world of tactical FPS
           </p>
           <div className="relative size-full">
             <AnimatedTitle
-              title="The st<b>o</b>ry of <br /> a hidden real<b>m</b>"
+              title="<b>T</b>he l<b>o</b>re unfo<b>l</b>ds <br /> V<b>A</b>lorant Pro<b>T</b>ocol"
               sectionId="#story"
               containerClass="mt-5 pointer-events-none mix-blend-difference relative z-10"
             />
@@ -67,7 +67,7 @@ const Story = () => {
                     onMouseUp={handleMouseLeave}
                     onMouseEnter={handleMouseLeave}
                     onMouseMove={handleMouseMove}
-                    src="/img/entrance.webp"
+                    src="/img/entrance.png"
                     alt="Entrance"
                     className="object-contain"
                   />
@@ -79,15 +79,16 @@ const Story = () => {
           <div className="-mt-80 flex w-full justify-center md:-mt-64 md:me-44 md:justify-end ">
             <div className="flex h-full w-fit flex-col items-center md:items-start">
               <p className="mt-3 max-w-sm text-center font-circular-web text-violet-50 md:text-start">
-                Where realms converge, lies Zentry and the boundless pillar.
-                Discover its secrets and shape your fate amidst infinite
-                opportunities.
+                Dive into a world where Agents from across the globe unite to
+                combat mysterious threats and secure the future of the planet.
               </p>
-              <Button
-                id="realm-btn"
-                title="discover prologue"
-                containerClass="mt-5"
-              />
+              <a href="">
+                <Button
+                  id="realm-btn"
+                  title="explore the lore"
+                  containerClass="mt-5"
+                />
+              </a>
             </div>
           </div>
         </div>

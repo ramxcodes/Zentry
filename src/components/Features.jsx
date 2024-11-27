@@ -67,61 +67,69 @@ const Features = () => {
       <div className="container px-3 mx-auto md:px-10">
         <div className="px-5 py-32">
           <p className="text-lg font-circular-web text-blue-50">
-            Into the Metagame Layer
+          CREATIVITY IS YOUR GREATEST WEAPON.
           </p>
           <p className="max-w-md text-lg opacity-50 font-circular-web text-blue-50">
-            Immerse yourself in a rich and ever-expanding universe where a
-            vibrant array of products converge into an interconnected overlay
-            experience on your world.
+          More than guns and bullets, you’ll choose an Agent armed with adaptive, swift, and lethal abilities that create opportunities to let your gunplay shine.
           </p>
         </div>
 
         <BentoTilt className="relative w-full overflow-hidden rounded-md border-hsla mb-7 h-96 md:h-[65vh]">
           <BentoCard
-            src="videos/feature-1.mp4"
+            src="videos/skill-1.mp4"
             title={
               <>
-                Radia<b>n</b>t
+                DE<b>F</b>Y THE LI<b>M</b>ITS
               </>
             }
-            description="A cross-platform metagame app, turning your activities across Web2 and Web3 games into a rewarding adventure."
+            description="Take on foes across Competitive and Unranked modes as well as Deathmatch and Spike Rush."
           />
         </BentoTilt>
 
         <div className="grid h-[135vh] grid-cols-2 grid-rows-3 gap-7">
           <BentoTilt className="row-span-1 bento-tilt_1 md:col-span-1 md:row-span-2">
             <BentoCard
-              src="videos/feature-2.mp4"
+              src="videos/skill-2.mp4"
               title={
                 <>
-                  Zig<b>m</b>a
+                  B<b>A</b>ttl<b>e</b>field <b>A</b>waits
                 </>
               }
-              description="An anime and gaming-inspired NFT collection - the IP primed for expansion."
+              description="Immerse yourself in the world of Valorant, where every map tells a story, and each match is an opportunity to outthink and outplay."
             />
           </BentoTilt>
 
           <BentoTilt className="row-span-1 bento-tilt_1 ms-32 md:col-span-1 md:ms-0">
             <BentoCard
-              src="videos/feature-3.mp4"
+              src="videos/skill.mp4"
               title={
                 <>
-                  n<b>e</b>xus
+                  <b>A</b>ge<b>n</b>ts
                 </>
               }
-              description="A gamified social hub, adding a new dimension of play to social interaction for Web3 communities."
+              description="Unique characters with abilities that redefine gameplay. Master their skills, build your strategies."
             />
           </BentoTilt>
 
           <BentoTilt className="bento-tilt_1 me-14 md:col-span-1 md:me-0">
             <BentoCard
-              src="videos/feature-4.mp4"
+              src="videos/skill-3.mp4"
               title={
                 <>
-                  az<b>u</b>l
+                  R<b>a</b>nked Pl<b>a</b>y
                 </>
               }
-              description="A cross-world AI Agent - elevating your gameplay to be more fun and productive."
+              description="Prove your skills, climb the ranks, and become the Radiant of Valorant."
+            />
+          </BentoTilt>
+          
+          <BentoTilt className="bento-tilt_2">
+            <video
+              src="videos/skill-4.mp4"
+              loop
+              autoPlay
+              muted
+              className="object-cover object-center size-full"
             />
           </BentoTilt>
 
@@ -134,15 +142,7 @@ const Features = () => {
             </div>
           </BentoTilt>
 
-          <BentoTilt className="bento-tilt_2">
-            <video
-              src="videos/feature-5.mp4"
-              loop
-              autoPlay
-              muted
-              className="object-cover object-center size-full"
-            />
-          </BentoTilt>
+          
         </div>
       </div>
     </section>
