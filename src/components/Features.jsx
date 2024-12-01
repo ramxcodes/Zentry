@@ -67,16 +67,18 @@ const Features = () => {
       <div className="container px-3 mx-auto md:px-10">
         <div className="px-5 py-32">
           <p className="text-lg font-circular-web text-blue-50">
-          CREATIVITY IS YOUR GREATEST WEAPON.
+            CREATIVITY IS YOUR GREATEST WEAPON.
           </p>
           <p className="max-w-md text-lg opacity-50 font-circular-web text-blue-50">
-          More than guns and bullets, you’ll choose an Agent armed with adaptive, swift, and lethal abilities that create opportunities to let your gunplay shine.
+            More than guns and bullets, you’ll choose an Agent armed with
+            adaptive, swift, and lethal abilities that create opportunities to
+            let your gunplay shine.
           </p>
         </div>
 
         <BentoTilt className="relative w-full overflow-hidden rounded-md border-hsla mb-7 h-96 md:h-[65vh]">
           <BentoCard
-            src="videos/skill-1.mp4"
+            src="videos/skill-1.webm"
             title={
               <>
                 DE<b>F</b>Y THE LI<b>M</b>ITS
@@ -89,7 +91,7 @@ const Features = () => {
         <div className="grid h-[135vh] grid-cols-2 grid-rows-3 gap-7">
           <BentoTilt className="row-span-1 bento-tilt_1 md:col-span-1 md:row-span-2">
             <BentoCard
-              src="videos/skill-2.mp4"
+              src="videos/skill-2.webm"
               title={
                 <>
                   B<b>A</b>ttl<b>e</b>field <b>A</b>waits
@@ -101,7 +103,7 @@ const Features = () => {
 
           <BentoTilt className="row-span-1 bento-tilt_1 ms-32 md:col-span-1 md:ms-0">
             <BentoCard
-              src="videos/skill.mp4"
+              src="videos/skill.webm"
               title={
                 <>
                   <b>A</b>ge<b>n</b>ts
@@ -113,7 +115,7 @@ const Features = () => {
 
           <BentoTilt className="bento-tilt_1 me-14 md:col-span-1 md:me-0">
             <BentoCard
-              src="videos/skill-3.mp4"
+              src="videos/skill-3.webm"
               title={
                 <>
                   R<b>a</b>nked Pl<b>a</b>y
@@ -122,10 +124,10 @@ const Features = () => {
               description="Prove your skills, climb the ranks, and become the Radiant of Valorant."
             />
           </BentoTilt>
-          
+
           <BentoTilt className="bento-tilt_2">
             <video
-              src="videos/skill-4.mp4"
+              src="videos/skill-4.webm"
               loop
               autoPlay
               muted
@@ -141,8 +143,6 @@ const Features = () => {
               <TiLocationArrow className="m-5 scale-[5] self-end" />
             </div>
           </BentoTilt>
-
-          
         </div>
       </div>
     </section>
